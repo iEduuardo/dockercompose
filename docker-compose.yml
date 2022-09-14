@@ -22,7 +22,7 @@ services:
        MYSQL_DATABASE: wordpress
        MYSQL_USER: wordpress
        MYSQL_PASSWORD: wordpress
-       VIRTUAL_HOST: 54.145.17.10
+       VIRTUAL_HOST: woocommerce.redaccess.com.mx
      networks:
         - wordpress-net
    wordpress:
@@ -38,7 +38,7 @@ services:
        WORDPRESS_DB_USER: wordpress
        WORDPRESS_DB_PASSWORD: wordpress
        WORDPRESS_DB_NAME: wordpress
-       VIRTUAL_HOST: 54.145.17.10
+       VIRTUAL_HOST: woocommerce.redaccess.com.mx
      networks:
         - wordpress-net
 volumes:
